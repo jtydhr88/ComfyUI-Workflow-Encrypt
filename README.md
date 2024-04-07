@@ -30,6 +30,11 @@ Just like you install other custom notes:
 6. If the key matches the file, ComfyUI should load the workflow correctly.
 7. If the key doesn't match the file, absolutely, ComfyUI is unable to load it!![overall](doc/failed.png)
 
+## Uninstall
+If you don't want to reserve this extension, go to following two places to delete:
+1. `ComfyUI/custom_nodes/ComfyUI-Workflow-Encrypt`
+2. `ComfyUI/web/extensions/comfyui-workflow-encrypt`
+
 ## Backend implement
 I am using [cryptography](https://cryptography.io/en/latest/) to implement
 

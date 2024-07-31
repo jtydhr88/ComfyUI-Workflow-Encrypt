@@ -2,7 +2,7 @@
 name = "comfyui-workflow-encrypt"
 description = "Encrypt your comfyui workflow, and share it with key"
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = ["cryptography"]
 
 [project.urls]
